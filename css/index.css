@@ -13,6 +13,10 @@ a{
   text-decoration: none;
   color: #222;
 }
+a:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
 span{
   color: #222;
 }
@@ -49,6 +53,9 @@ span{
 .header .globalnav ul li{
   margin-left: 30px;
   font-weight: bold;
+}
+.humbermenu{
+  display: none;
 }
 .sp_globalnav{
   display: none;
@@ -173,6 +180,7 @@ span{
   background-color: #cd0224;
   text-align: center;
 }
+.content .btn a
 
 /*　　― 想い ―　　*/
 .mind p{
