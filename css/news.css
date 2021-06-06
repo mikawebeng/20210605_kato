@@ -1,0 +1,11 @@
+/*　　―― メイン ――　　*/
+
+.newsMain .news article{
+  border: solid 1px #222;
+}
+
+@media screen and (max-width: 768px) {
+.newsMain .news article{
+  padding: 10px;
+}
+}

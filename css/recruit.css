@@ -1,0 +1,39 @@
+/*　　―― メイン ――　　*/
+
+.recruitMain .recruit section:not(:last-child){
+  margin-bottom: 80px;
+}
+.recruitMain .recruit section h3{
+  font-weight: bold;
+  font-size: 26px;
+  border-bottom: solid 1px #222;
+  margin-bottom: 20px;
+}
+.recruitMain .recruit section p{
+  margin-bottom: 20px;
+}
+.recruitMain .recruit table {
+  width: 100%;
+}
+.recruitMain .recruit table th,
+.recruitMain .recruit table td{
+  border-bottom: solid 1px #222;
+  padding: 10px 0;
+}
+.recruitMain .recruit table tr:first-child th,
+.recruitMain .recruit table tr:first-child td{
+  border-top: solid 1px #222;
+}
+.recruitMain .recruit table th{
+  font-weight: bold;
+  text-align: center;
+  width: 30%;
+  background-color: #f5f6f9;
+  border-left: solid 1px #222;
+  border-right: solid 1px #222;
+}
+.recruitMain .recruit table td{
+  width: 70%;
+  padding: 10px;
+  border-right: solid 1px #222;
+}

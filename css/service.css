@@ -1,0 +1,46 @@
+/* ===== 下層ページ共通 ==== */
+
+.page #mainvisu{
+  height: 250px;
+  background-position: center center;
+}
+.page #mainvisu h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* ===== //END 下層ページ共通 ==== */
+
+/*　　―― メイン ――　　*/
+
+.serviceMain .service ul li{
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #222;
+  align-items: flex-start;
+}
+.serviceMain .service ul li:first-child{
+  padding-top: 20px;
+  border-top: 1px solid #222;
+}
+.serviceMain .service ul li div{
+  width: calc(100% - 330px);
+}
+.serviceMain .service ul li img{
+  max-width: 290px;
+}
+.serviceMain .service ul li h3{
+  font-size: 24px;
+}
+@media screen and (max-width: 768px) {
+.serviceMain .service ul li{
+  display: block;
+}
+.serviceMain .service ul li img{
+  max-width: 100%;
+}
+.serviceMain .service ul li div{
+  width: 100%;
+}
+}

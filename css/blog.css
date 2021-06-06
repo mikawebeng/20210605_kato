@@ -1,0 +1,4 @@
+/*　　―― メイン ――　　*/
+.blogMain .blog ul.flex{
+  flex-wrap: wrap;
+}

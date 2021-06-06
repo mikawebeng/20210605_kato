@@ -1,0 +1,21 @@
+/*　　―― メイン ――　　*/
+.companyMain .company table {
+  width: 100%;
+}
+.companyMain .company table th,
+.companyMain .company table td{
+  border-bottom: solid 1px #222;
+  padding: 20px 0;
+}
+.companyMain .company table tr:first-child th,
+.companyMain .company table tr:first-child td{
+  border-top: solid 1px #222;
+}
+.companyMain .company table th{
+  font-weight: bold;
+  text-align: center;
+  width: 30%;
+}
+.companyMain .company table td{
+  width: 70%;
+}
